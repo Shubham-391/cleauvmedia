@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&family=Raleway:wght@600&display=swap');
+
+:root {
+    /* color */
+    --c1: rgba(255, 255, 255, 0.10);
+    --c2: rgba(255, 255, 255, 0.20);
+    --c3: #80765D;
+    --c4: #242323;
+    --c5: #FFF9E4;
+    --c6: #FFFCF6;
+    --c7: #3C3C3C;
+    --c8: #FFCF23;
+    --c9: #988353;
+    --c10: rgba(0, 0, 0, 0.40);
+    /* font-size */
+    --fs-sm1: 16px;
+    --fs-sm2: 20px;
+    --fs-md1: 24px;
+    --fs-md2: 42px;
+    --fs-lg1: 44px;
+    --fs-lg2: 62px;
+}
+
+/* line height */
+.line-height-normal {
+    line-height: normal;
+}
+
+.line-height-150 {
+    line-height: 150%;
+}
+
+/* opacity */
+.opacity05 {
+    opacity: 0.5;
+}
+
+.opacity07 {
+    opacity: 0.7;
+}
+
+.opacity09 {
+    opacity: 0.9;
+}
+
+/* font family */
+.montserrat {
+    font-family: 'Montserrat Alternates';
+}
+
+.raleway {
+    font-family: 'Raleway';
+}
