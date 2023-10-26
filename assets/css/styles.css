@@ -695,6 +695,53 @@ nav div ul li:hover::after {
     left: -34%;
 }
 
+/* footer */
+.min-height-380 {
+    min-height: 380px;
+}
+
+.min-height-320 {
+    min-height: 320px;
+}
+
+.footer-logo {
+    width: 252px;
+    height: 35px;
+}
+
+.max-width-401 {
+    max-width: 401px;
+}
+
+.width-120 {
+    width: 120px;
+}
+
+.social-media a svg:hover circle {
+    fill: var(--c4);
+}
+
+.gap-14 {
+    gap: 14px;
+}
+
+.footer-link:hover {
+    opacity: 1;
+}
+
+.footer-line {
+    height: 1px;
+    opacity: 0.2;
+}
+
+.min-height-60{
+    min-height: 60px;
+}
+
+.row-gap-34{
+    row-gap: 34px;
+}
+
 @media(min-width: 350px) {
 
     /* section4 */
