@@ -654,6 +654,47 @@ nav div ul li:hover::after {
     left: 2%;
 }
 
+/* section5 */
+.section5-height {
+    min-height: 339px;
+}
+
+.section5-btn {
+    padding: 12px 23px;
+    border-radius: 39px;
+    background: rgba(255, 255, 255, 0.20);
+    border: none;
+}
+
+.section5-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.section5-design1 {
+    width: 74.99px;
+    height: 63.69px;
+    top: 4%;
+    left: 0%;
+}
+
+.section5-design2 {
+    width: 103px;
+    height: 103px;
+    transform: rotate(30deg);
+    bottom: 0;
+    right: 0;
+}
+
+.section5-ellipse1 {
+    width: 300px;
+    height: 138px;
+    border-radius: 50%;
+    background: linear-gradient(125deg, #FFCF23 0%, #FFA723 100%);
+    filter: blur(239px);
+    top: -19%;
+    left: -34%;
+}
+
 @media(min-width: 350px) {
 
     /* section4 */
@@ -729,6 +770,16 @@ nav div ul li:hover::after {
     .section4-design1 {
         top: -1%;
         left: -7%;
+    }
+
+    /* section5 */
+    .section5-ellipse2 {
+        width: 241px;
+        height: 110px;
+        background: linear-gradient(125deg, #FFCF23 0%, #FFA723 100%);
+        filter: blur(239px);
+        top: 0;
+        right: -3%;
     }
 }
 
@@ -850,6 +901,33 @@ nav div ul li:hover::after {
         bottom: -8%;
         right: -12%;
     }
+
+    /* section5 */
+    .section5-height {
+        min-height: 452px;
+    }
+
+    .section5-design1 {
+        width: 154px;
+        height: 131px;
+        top: 0;
+        left: 13%;
+    }
+
+    .section5-design2 {
+        width: 196px;
+        height: 196px;
+        bottom: 0;
+        right: 0;
+    }
+
+    .section5-ellipse1 {
+        width: 233px;
+        height: 108px;
+        border-radius: unset;
+        top: 13%;
+        left: -5%;
+    }
 }
 
 
@@ -947,6 +1025,12 @@ nav div ul li:hover::after {
         border-right: 2px solid rgba(0, 0, 0, 0.10);
     }
 
+    /* section5 */
+    .section5-design2 {
+        bottom: 9%;
+        right: 0;
+    }
+
 }
 
 @media(min-width:1200px) {
@@ -1026,6 +1110,17 @@ nav div ul li:hover::after {
     .section4-design3 {
         bottom: 36%;
         left: 2%;
+    }
+
+    /* section5 */
+    .section5-design2 {
+        bottom: 9%;
+        right: 10%;
+    }
+
+    .section5-ellipse1 {
+        top: 13%;
+        left: -2%;
     }
 }
 
