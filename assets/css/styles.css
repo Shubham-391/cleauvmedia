@@ -311,8 +311,8 @@ nav div ul li:hover::after {
     height: 46px;
     background: var(--c13);
     border-radius: 50%;
-    top: 25px;
-    right: 28px;
+    top: 10px;
+    right: 10px;
 }
 
 /* hero section */
@@ -734,11 +734,11 @@ nav div ul li:hover::after {
     opacity: 0.2;
 }
 
-.min-height-60{
+.min-height-60 {
     min-height: 60px;
 }
 
-.row-gap-34{
+.row-gap-34 {
     row-gap: 34px;
 }
 
@@ -759,6 +759,11 @@ nav div ul li:hover::after {
     /* header */
     .logo {
         max-width: 251px;
+    }
+
+    .close {
+        top: 25px;
+        right: 28px;
     }
 
     .design1 {
