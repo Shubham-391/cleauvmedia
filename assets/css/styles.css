@@ -15,12 +15,16 @@
     --c11: #FAFAFA;
     --c12: #FFA723;
     --c13: rgba(255, 255, 255, 0.05);
+    --c14: rgba(0, 0, 0, 0.06);
+    --c15: rgba(255, 255, 255, 0.30);
     /* font-size */
     --fs-sm1: 14px;
     /*original 16px*/
     --fs-sm2: 20px;
-    --fs-md1: 24px;
-    --fs-md2: 42px;
+    --fs-md1: 18px;
+    /*original 24px*/
+    --fs-md2: 32px;
+    /*original 42px*/
     --fs-lg1: 44px;
     --fs-lg2: 32px;
     /* original 62px*/
@@ -211,9 +215,6 @@
     right: -11%;
 }
 
-
-
-
 /* navbar */
 .height-90 {
     height: 90px;
@@ -225,7 +226,7 @@
 
 .nav-bg {
     background-color: var(--c1);
-    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 40px 0px var(--c14);
 }
 
 .custom-container1 {
@@ -338,9 +339,174 @@ nav div ul li:hover::after {
     font-size: 16px;
 }
 
-.hero-section-btn:hover{
+.hero-section-btn:hover {
     background: linear-gradient(125deg, var(--c12) 0%, var(--c8) 100%);
 }
+
+/* section3 */
+.section3-height {
+    min-height: 837px;
+}
+
+.custom-container2 {
+    max-width: 1162px !important;
+}
+
+.max-width-612 {
+    max-width: 612px;
+}
+
+.section3-box {
+    padding: 10px 20px;
+    border: 1px solid var(--c15);
+    height: 47px;
+    width: 90%;
+}
+
+.section3-box:hover {
+    border: 1px solid #FFCF23;
+    background: #242323;
+    box-shadow: 5px 5px 0px 0px #FFCF23;
+}
+
+.section3-row-gap {
+    row-gap: 20px;
+}
+
+.section3-ellipse {
+    width: 167px;
+    height: 77px;
+    border-radius: 50%;
+    background: linear-gradient(125deg, #FFCF23 0%, #FFA723 100%);
+    filter: blur(239px);
+    top: 0;
+    left: -3%;
+}
+
+.section3-design1 {
+    width: 16px;
+    height: 24px;
+    top: 3%;
+    left: 5%;
+}
+
+.section3-design2 {
+    width: 33px;
+    height: 32px;
+    top: 1%;
+    right: 8%;
+}
+
+.section3-design3 {
+    width: 44px;
+    height: 70px;
+    bottom: 12%;
+    left: 5%;
+}
+
+.section3-design4 {
+    width: 34px;
+    height: 28px;
+    bottom: 12%;
+    right: 6%;
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+}
+
+.order5 {
+    order: 5;
+}
+
+.order6 {
+    order: 6;
+}
+
+.order7 {
+    order: 7;
+}
+
+.order8 {
+    order: 8;
+}
+
+.order9 {
+    order: 9;
+}
+
+.order10 {
+    order: 10;
+}
+
+.order11 {
+    order: 11;
+}
+
+.order12 {
+    order: 12;
+}
+
+.order13 {
+    order: 13;
+}
+
+.order14 {
+    order: 14;
+}
+
+.order15 {
+    order: 15;
+}
+
+.order16 {
+    order: 16;
+}
+
+.order17 {
+    order: 17;
+}
+
+.order18 {
+    order: 18;
+}
+
+.order19 {
+    order: 19;
+}
+
+.order20 {
+    order: 20;
+}
+
+.order21 {
+    order: 21;
+}
+
+.order22 {
+    order: 22;
+}
+
+.order23 {
+    order: 23;
+}
+
+.order24 {
+    order: 24;
+}
+
 @media(min-width: 576px) {
 
     /* header */
@@ -445,6 +611,42 @@ nav div ul li:hover::after {
         bottom: 5%;
         right: -6%;
     }
+
+    /* section3 */
+    .section3-box {
+        padding: 14px 20px;
+        width: 48%;
+    }
+
+    .section3-row-gap {
+        row-gap: 27px;
+    }
+
+    .section3-ellipse {
+        width: 300px;
+        height: 138px;
+    }
+
+    .section3-design1 {
+        width: 50px;
+        height: 74px;
+        top: 8%;
+        left: 1%;
+    }
+
+    .section3-design2 {
+        width: 67px;
+        height: 65px;
+        top: 5%;
+        right: 19%;
+    }
+
+    .section3-design4 {
+        width: 73px;
+        height: 59px;
+        bottom: 18%;
+        right: 2%;
+    }
 }
 
 
@@ -512,6 +714,22 @@ nav div ul li:hover::after {
         width: 100%;
     }
 
+    /* section3 */
+    .section3-box {
+        padding: 14px 14px;
+        width: 32%;
+    }
+
+    .section3-design1 {
+        top: 16%;
+        left: 9%;
+    }
+
+    .section3-design2 {
+        top: 10%;
+        right: 19%;
+    }
+
 }
 
 @media(min-width:1200px) {
@@ -530,5 +748,42 @@ nav div ul li:hover::after {
     .design7 {
         top: 18%;
         right: -7%;
+    }
+
+    /* section3 */
+
+    .section3-box {
+        padding: 14px 32px;
+        width: unset;
+    }
+
+    .section3-box1 {
+        width: 345px;
+    }
+
+    .section3-box2 {
+        width: 240px;
+    }
+
+    .section3-box3 {
+        width: 208px;
+    }
+
+    .section3-box4 {
+        width: 264px;
+    }
+    .order1,.order2,.order3,
+    .order4,.order5,
+    .order6,.order7,
+    .order8,.order9,
+    .order10,.order11,
+    .order12,.order13,
+    .order14,.order15,
+    .order16,.order17,
+    .order18,.order19,
+    .order20,.order21,
+    .order22,.order23,
+    .order24{
+        order:unset;
     }
 }
