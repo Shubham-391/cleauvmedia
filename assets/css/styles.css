@@ -408,24 +408,29 @@ nav div ul li:hover::after {
 
 .slider1 .slick-dots {
     display: flex !important;
-    gap: 12px;
+    gap: 6px;
     justify-content: center;
     bottom: -55px !important;
 }
 
-.slider1 .slick-dots li button:before {
+.slider1 .slick-dots li {
     width: 31px !important;
     height: 11px !important;
-    content: '';
     opacity: .2 !important;
     color: var(--c7) !important;
     background: var(--c7);
-    border-radius: 32px;
+    border-radius: 34px;
+    margin: 0;
 }
 
-.slider1 .slick-dots li.slick-active button:before {
+.slider1 .slick-dots li button:before {
+    content: unset;
+}
+
+.slider1 .slick-dots li.slick-active {
+    width: 40px !important;
+    height: 11px !important;
     opacity: 1 !important;
-    scale: 1.2;
 }
 
 /* section2 */
@@ -905,23 +910,27 @@ nav div ul li:hover::after {
 
 .slider3 .slick-dots {
     display: flex !important;
-    gap: 12px;
+    gap: 6px;
     justify-content: center;
 }
 
-.slider3 .slick-dots li button:before {
+.slider3 .slick-dots li {
     width: 29px !important;
     height: 11px !important;
-    content: '';
     border-radius: 18px;
     background: var(--c17);
-    opacity: 1 !important;
+    margin: 0 !important;
 }
 
-.slider3 .slick-dots li.slick-active button:before {
+.slider3 .slick-dots li button:before {
+    content: unset;
+}
+
+.slider3 .slick-dots li.slick-active {
     background: var(--c7);
-    scale: 1.5 1;
-    border-radius: 5px;
+    width: 57px !important;
+    height: 11px !important;
+    border-radius: 18px;
 }
 
 .custom-container5 {

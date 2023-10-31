@@ -10,7 +10,7 @@ function navbar2() {
 };
 
 $('.slider1').slick({
-    autoplay: true,
+    // autoplay: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     arrows: false,
@@ -62,7 +62,7 @@ $('.slider2').slick({
 });
 
 $('.slider3').slick({
-    autoplay: true,
+    // autoplay: true,
     centerMode: true,
     centerPadding: '270px',
     slidesToShow: 1,
@@ -108,11 +108,11 @@ function up() {
 };
 
 // preloader
-const preloader = document.getElementById("preloader");
-setTimeout(() => {
-    document.getElementById("preloder").classList.add("d-none");
-    document.body.classList.remove("overflow-hidden")
-}, 2000);
+// const preloader = document.getElementById("preloader");
+// setTimeout(() => {
+//     document.getElementById("preloder").classList.add("d-none");
+//     document.body.classList.remove("overflow-hidden")
+// }, 2000);
 
 
 
