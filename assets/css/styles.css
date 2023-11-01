@@ -707,7 +707,6 @@ nav div ul li:hover::after {
 }
 
 .section4-box {
-    max-width: 350px;
     min-width: 280px;
     height: 423px;
     border: 1px solid var(--c7);
@@ -721,7 +720,7 @@ nav div ul li:hover::after {
     height: 1px;
     opacity: 0.2;
     background: var(--c7);
-    bottom: -23px;
+    bottom: -12px;
     left: 0;
 }
 
@@ -1357,6 +1356,10 @@ nav div ul li:hover::after {
         height: 138px;
         bottom: -8%;
         right: -12%;
+    }
+
+    .cancel::after {
+        bottom: -23px;
     }
 
     /* section5 */
