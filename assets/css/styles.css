@@ -296,7 +296,7 @@
 }
 
 .transition {
-    transition: all linear 500ms;
+    transition: all linear 300ms;
 }
 
 nav div ul li::after {
@@ -307,7 +307,7 @@ nav div ul li::after {
     left: -50%;
     height: 1px;
     background: var(--c11);
-    transition: all linear 500ms;
+    transition: all linear 300ms;
     margin-left: -82px;
     opacity: 0.2;
 }
@@ -335,7 +335,7 @@ nav div ul li:hover::after {
     height: 100%;
     position: fixed;
     background: var(--c4);
-    transition: all linear 500ms;
+    transition: all linear 300ms;
 }
 
 .navbar-line {
@@ -377,13 +377,14 @@ nav div ul li:hover::after {
 }
 
 .hero-section-btn {
-    background: linear-gradient(125deg, var(--c8) 0%, var(--c12) 100%);
+    background: linear-gradient(125deg, var(--c8) 0%, transparent 100%) var(--c12);
     border: none;
     font-size: 16px;
+    transition: background-color 500ms;
 }
 
 .hero-section-btn:hover {
-    background: linear-gradient(125deg, var(--c12) 0%, var(--c8) 100%);
+    background-color: red;
 }
 
 /* section1 */
@@ -475,7 +476,7 @@ nav div ul li:hover::after {
 }
 
 .custom-container4 {
-    max-width: 1440px !important;
+    max-width: 1920px !important;
 }
 
 .border-radius-15 {
@@ -1041,14 +1042,26 @@ nav div ul li:hover::after {
 }
 
 .stop1 {
-    stop-color: #f9ce34;
+    stop-color: white;
 }
 
 .stop2 {
-    stop-color: #ee2a7b;
+    stop-color: white;
 }
 
 .stop3 {
+    stop-color: white;
+}
+
+.instagram:hover linearGradient .stop1 {
+    stop-color: #f9ce34;
+}
+
+.instagram:hover linearGradient .stop2 {
+    stop-color: #ee2a7b;
+}
+
+.instagram:hover linearGradient .stop3 {
     stop-color: #6228d7;
 }
 
@@ -1443,7 +1456,7 @@ nav div ul li:hover::after {
         margin-left: unset;
         border-radius: 15px;
         background: var(--c11);
-        transition: all linear 500ms;
+        transition: all linear 300ms;
         opacity: 1;
     }
 
@@ -1608,12 +1621,6 @@ nav div ul li:hover::after {
         gap: 44px;
     }
 
-    .section6img {
-        width: 184px;
-        height: 191px;
-    }
-
-    /* section6 */
     .section6img {
         width: 184px;
         height: 191px;
